@@ -57,11 +57,11 @@ class ReportConfig:
         'NEW_FILE_TRANSFER_PROGRESS_SHEET_NAME': '新ファイル転送',
         'CONSTRUCTION_PREP_SHEET_NAME': 0,
         'START_ROW_CONSTRUCTION_PREP': 14,
-        'USE_COLS_CONSTRUCTION_PREP': 'D:N'
+        'USE_COLS_CONSTRUCTION_PREP': 'D:O'
     }
 
     COL_NAMES_CONSTRUCTION_PREP = [
-        '区分','対象','作業項目','開始予定日','終了予定日','開始実績日',
+        '区分','対象', '作業区分', '作業項目','開始予定日','終了予定日','開始実績日',
         '終了実績日','予定頁数','実績頁数','担当','状況'
     ]
 
